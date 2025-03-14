@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 100%; /* 100% do comprimento do elemento pai  */
+    height: 100dvh; /* 100% da altura do viewport */
+    background-color: yellow; /* Cor de fundo */
+    text-align: center; /* Alinhamento do texto */
+    /* padding: 100px; Espaçamento interno */
+    /*padding-top: 150px; /* Espaçamento interno superior */
+    /* padding-bottom: 250px; /* Espaçamento interno inferior */
+    /* padding-left: 100px; Espaçamento interno esquerdo */
+    /* padding-right: 200px; Espaçamento interno direito */ 
+    padding-top: 50px;
+}
+
+h1{
+    background-color: red; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    width: 150px; /* 50% do comprimento do elemento pai */
+    height: 150px;
+    /* margin: 150px; Espaçamento externo */
+    /* margin-top: 150px; /* Espaçamento externo superior */
+    /* margin-bottom: 250px; /* Espaçamento externo inferior */ 
+    /* margin-left: 100px; Espaçamento externo esquerdo */
+    /* margin-right: 200px; Espaçamento externo direito */
+    /* margin: 0px 100px 250px 200px; Espaçamento externo superior, direito, inferior e esquerdo */
+    margin: 0px 0px 50px 50px;
+    border: blue 1px solid; /* Borda */
+    padding: 10px; /* Espaçamento interno */
+}
