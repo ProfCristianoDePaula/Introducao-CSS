@@ -18,7 +18,7 @@ body {
 }
 
 .img-responsiva{
-    width: 80%; /* Deixa a imagem responsiva */
+    width: 50%; /* Deixa a imagem responsiva */
     height: auto;
     border: #333 10px solid; /* Borda de 10px cinza */
     border-radius: 50%; /* Deixa a imagem redonda */
