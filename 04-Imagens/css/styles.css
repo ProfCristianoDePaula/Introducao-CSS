@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.img-propriedades{
+    width: 300px;
+    height: auto;
+    border: #333 10px solid; /* Borda de 10px cinza */
+    border-radius: 50%; /* Deixa a imagem redonda */
+}
+
+.img-responsiva{
+    width: 80%; /* Deixa a imagem responsiva */
+    height: auto;
+    border: #333 10px solid; /* Borda de 10px cinza */
+    border-radius: 50%; /* Deixa a imagem redonda */
+}
+
+h2{
+    margin: 20px 0;
+}
+.img-fundo{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: #000 10px solid; /* Borda de 10px cinza */
+    background-image: url('../img/Avatar-2.jpeg'); /* Imagem de fundo */;
+    background-size: cover; /*Cobrir a div */
+    box-shadow: #333 15px 15px 15px; /* Sombra */
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 12px 5px 5px #ffffff; /* Sombra no texto */
+
+}
